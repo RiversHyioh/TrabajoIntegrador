@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar Odontólogo - Clínica Odontológica</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+<div class="container">
+    <h1>Agregar Odontólogo</h1>
+    <form action="/odontologo/add" method="post">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="surname">Apellido:</label>
+        <input type="text" id="surname" name="surname" required>
+
+        <label for="registration">Matrícula:</label>
+        <input type="text" id="registration" name="registration" required>
+
+        <button type="submit">Agregar Odontólogo</button>
+    </form>
+</div>
+<script src="/static/scripts.js"></script>
+</body>
+</html>
